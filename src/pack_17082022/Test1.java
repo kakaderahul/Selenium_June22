@@ -43,12 +43,12 @@ public class Test1
 	 dr.findElement(By.xpath("//input[contains(@name,'pass')]")).sendKeys("Rahul@080392");
 	 
 	 Thread.sleep(2000);
-	//r.findElement(By.xpath("//button[@id='loginbutton']")).click();
+	//dr.findElement(By.xpath("//button[@id='loginbutton']")).click();
 	//r.findElement(By.xpath("//button[@name='login']")).click();
 	
-	//r.findElement(By.xpath("//button[@class='_42ft _4jy0 _52e0 _4jy6 _4jy1 selected _51sy']")).click();
+	 dr.findElement(By.xpath("//button[@class='_42ft _4jy0 _6lth _4jy6 _4jy1 selected _51sy']")).click();
 	
-	 dr.findElement(By.xpath("//button[@name='login']")).click();
+	// dr.findElement(By.xpath("//button[@name='login']")).click();
 	 Thread.sleep(20000);
 	 dr.close();
 	 
